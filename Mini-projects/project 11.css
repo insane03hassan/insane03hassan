@@ -1,0 +1,130 @@
+div {
+    display: inline-block;
+}
+
+.div1 {
+    display: inline-block;
+   
+    margin-right: 7px;
+    vertical-align: top;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.div2 {
+    display: inline-block;
+   
+    margin-right: 7px;
+    
+
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+.div3 {
+    display: inline-block;
+   
+    margin-left: 3px;
+
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.cat-image1 {
+    width: 150px;
+    height: 157px;
+
+
+}
+
+p {
+    font-family: Arial;
+}
+
+.oliver {
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-bottom: 0px;
+
+
+}
+.mimi {
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-bottom: 0px;
+
+
+}
+.rex {
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-bottom: 0px;
+
+
+}
+.friends1 {
+    color: grey;
+    margin-left: 5px;
+    margin-top: 0px;
+    margin-bottom: 1px;
+    font-size: 14px;
+}
+.friends2 {
+    color: grey;
+    margin-left: 5px;
+    margin-top: 0px;
+    margin-bottom: 1px;
+    font-size: 14px;
+}
+.friends3 {
+    color: grey;
+    margin-left: 5px;
+    margin-top: 0px;
+    margin-bottom: 1px;
+    font-size: 14px;
+}
+
+
+.add-button1 {
+    margin-left: 5px;
+    background-color: blue;
+    border: 0px;
+    color: white;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 3px;
+    margin-bottom: 7px;
+    margin-top: 11px;
+    width: 100px;
+}
+.add-button2 {
+    margin-left: 5px;
+    background-color: blue;
+    border: 0px;
+    color: white;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 3px;
+    margin-bottom: 7px;
+    margin-top: 11px;
+    width: 100px;
+}
+.add-button3 {
+    margin-left: 5px;
+    background-color: blue;
+    border: 0px;
+    color: white;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 3px;
+    margin-bottom: 7px;
+    margin-top: 11px;
+    width: 100px;
+    font-size: ;
+}
+.cat-image2 {
+    width: 150px;
+}
+
+.cat-image3 {
+    width: 150px;
+}

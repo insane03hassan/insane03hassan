@@ -1,0 +1,41 @@
+
+.google1 {
+    display: block;
+    margin-left: 110px;
+    margin-right: 0px;
+    margin-top: 100px;
+    width: 270px;
+}
+
+.google2 {
+    display: block;
+    width: 400px;
+    height: 20px;
+    padding-left:16px ;
+    padding-right: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 30px;
+    border-style: solid;
+    border-width: 0px;
+    margin-left: 25px;
+    margin-top: 10px;
+    box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.3);
+
+}
+.google2:focus {
+    display: block;
+    width: 400px;
+    height: 20px;
+    padding-left:16px ;
+    padding-right: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 30px;
+    border-style: solid;
+    border-width: none;
+    margin-left: 25px;
+    margin-top: 10px;
+    box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.3);
+
+}

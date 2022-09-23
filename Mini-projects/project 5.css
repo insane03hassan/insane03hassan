@@ -1,0 +1,15 @@
+.text-box1 {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.text-box2 {
+    display: block;
+}
+
+.line-text1 {
+    font-family: Arial;
+    display: inline-block;
+   width: 300px;
+   vertical-align: middle;
+}

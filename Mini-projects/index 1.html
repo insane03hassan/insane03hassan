@@ -1,0 +1,338 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+
+        <title>
+                button project
+        </title>
+    </head>
+    <body>
+        <style>
+            .uber-button{
+                background-color: black;
+                color: white;
+                width: 100px;
+             
+                height: 40px;
+                border: none; 
+                cursor: pointer;
+                margin-left: 10px;
+                transition: opacity 0.15s,
+                color 0.15s;
+            }
+            .uber-button:hover{
+                opacity: 0.75 ;
+            }
+            .uber-button:active{
+                opacity: 0.5;
+            }
+            .amazon-button{ 
+                background-color: rgb(233, 233, 128);
+                width: 150px;
+                height: 40px;
+                border: none;
+                border-radius: 20px;
+                cursor: pointer;
+                margin-left: 10px;
+                transition: backgrund-color 0.15s,
+                color 0.16s;
+            }
+            .amazon-button:hover{
+                background-color:rgb(228, 196, 15) ;
+                color: white;
+
+            }
+            .github-button{ 
+                background-color: rgb(87, 209, 87);
+                color: white;
+                border: none;
+                border-radius: 8px;
+                width: 100px;
+                height: 40px;
+                font-size: 17px;
+                cursor: pointer; 
+                margin-left: 10px;
+                transition: background-color 0.15s;
+                
+
+
+            }
+            .github-button:hover{
+                background-color: rgb(29, 165, 29);
+                box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+            }
+
+            .bootstrap-button1{
+                background-color: rgb(121, 82, 179);
+                height: 40px;
+                width: 100px;
+                border-width: 0px;
+                border-radius: 5px ;
+                color: white;
+                cursor: pointer;
+                margin-left: 10px;
+                transition: color 0.15s,
+                background-color 0.15s,
+                border-color 0.15s ;
+
+
+            }
+            .bootstrap-button1:hover{
+                color: rgb(121, 82, 179);
+                background-color: white;
+                
+                border-color: rgb(121, 82, 179);
+                border-width: 1px;
+                
+
+
+            }
+            .bootstrap-button2{
+                background-color:rgb(255,255,255);
+                height: 40px;
+                width: 100px;
+                border-color:rgb(108,117,125) ;
+                color: rgb(108,117,125);
+                border-width: 1px;
+                border-radius: 5px;
+                cursor: pointer; 
+                margin-left: 10px;
+                margin-top: 10px;
+                transition: background-color 0.5s
+                color 0.5s;
+
+                
+
+
+            }
+            .bootstrap-button2:hover{
+                background-color: rgb(137, 56, 190);
+                color: white;
+
+            }
+            .linkedin-button1{
+                background-color: rgb(67, 105, 185);
+                color: white;
+                width: 230px;
+                height: 40px;
+                border-width: 0px;
+                
+                border-radius: 20px;
+                font-size: medium;
+                cursor: pointer;
+                margin-left: 10px;
+                margin-top: 10px;
+                transition: background-color 0.15s;
+
+
+            }
+            .linkedin-button1:hover{
+                background-color: rgb(46, 69, 170);
+            }
+            .linkedin-button2{
+                background-color: white;
+                color: rgb(67, 105, 185);
+                border-color: rgb(67, 105, 185);
+                border-width: 1px;
+                width: 80px;
+                height: 40px;
+                border-radius: 20px;
+                font-weight: 800;
+                font-size: 15px; 
+                margin-left: 10px;
+                margin-top: 10px;
+                transition: background-color 1s, 
+                color 1s, ;
+
+
+            }
+            .linkedin-button2:hover{
+                background-color: rgb(67, 105, 185);
+                color: white;
+                border-width: 0px;
+
+            }
+            div{
+                width: 95%;
+                height: 100%;
+                background-color: rgb(153, 165, 175);
+                margin: 10px;
+                padding: 10px;
+
+        
+            }
+            #nike{
+                font-weight: 800;
+                font-size: 100%;
+                
+            }
+            .stock{
+                color: rgb(40, 90, 40);
+            }
+            .cart-button{
+                background-color: rgb(255, 216, 20);
+                color: black;
+                width: 100px;
+                height: 20px;
+                border: none;
+                border-radius: 40px;
+                cursor: pointer;
+
+
+                
+
+
+            }
+            .cart-button:hover {
+                background-color: rgb(248, 219, 74);
+            }
+            .cart-button:active{
+                opacity: 0.9;
+
+            }
+            a:hover {
+                color: orange;
+                text-decoration-line: none;
+
+            }
+            .buy-button{
+                background-color: rgb(255, 164, 28);
+                color: black;
+                width: 100px;
+                height: 20px;
+                border: none;
+                border-radius: 10px;
+                cursor: pointer;
+            }
+            .buy-button:hover {
+
+            }
+            .buy-button:active {
+                opacity: 0.7;
+            }
+
+            .youtube-button {
+                background-color: rgb(214, 20, 20);
+                color: white;
+                width: 100px;
+                height: 40px;
+                border: none;
+                border-radius: 5px;
+                font-weight: bold;
+                font-size: 15px;
+                cursor: pointer;
+                transition: Opacity 0.17s;
+                margin-left: 10px;
+                }
+
+            .youtube-button:hover {
+                background-color: ;
+                opacity: 0.8;
+            
+
+            }
+            .youtube-button:active{
+                opacity: 0.5;
+            }
+            .join-button {
+                background-color: white;
+                color: blue;
+                border-width: 1px;
+                border-style: solid;
+                width: 100px;
+                height: 40px;
+                border-radius: 3px;
+                border-color: blue;
+                cursor: pointer;
+                font-weight: bold;
+                font-size: 15px;
+                transition: background-color 0.15s, 
+                 color 0.15s;
+                margin-left: 10px;
+            }  
+           
+            .join-button:hover {
+                background-color: blue;
+                color: white;
+
+
+            }
+            .join-button:active {
+                opacity: 0.8;
+            }
+            .tweet-button {
+                background-color: rgb(44, 118, 230);
+                color: white;
+                border: none;
+                width: 100px;
+                height: 40px;
+                border-radius: 20px;
+                font-weight: bold;
+                font-size: 15px;
+                transition: box-shadow 0.15s ;
+                margin-left: 10px;
+               
+                
+
+            } 
+            .tweet-button:hover {
+                box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
+            }
+
+            .test-large {
+                background-color: green;
+                border-width: 0px;
+                height: 40px;
+                width: 90px;
+                font-weight: bold;
+                font-size: 15px;
+                vertical-align: top;
+                border-radius: 5px;
+                margin-left: 10px;
+                transition: padding-top 0.15s, padding-buttom 0.15s, color 0.15s ;
+
+            }
+            .test-large:hover{
+                padding-top: 15px;
+                padding-bottom: 50px;
+            
+            }
+
+
+        </style>
+
+    <p> </p>
+        <button class="uber-button"> <i class="fa fa-bars"> ::before</i> Request Now</button>
+        <button class="amazon-button">Add to Cart</button>
+        <button class="github-button">Sign up</button>
+        <button class="bootstrap-button1">Get started</button>
+        <button class="bootstrap-button2">Download</button>
+        <button class="linkedin-button1">Apply on company website</button>
+        <button class="linkedin-button2">Save</button>
+    <div>
+        <a href="https://www.amazon.com" target="_blank">Back to Amazon</a>
+
+        <p id="nike"> Nike Black Running Shoes</p>
+
+        <p class="stock">$39 - in stock.</p>
+        <p class="ordinary">Free delivery tomorrow.</p>
+
+        <button class="cart-button">Add to Cart</button>
+        <button class="buy-button">Buy now</button>
+
+    
+    </div> 
+    
+    <button class="youtube-button" >SUBSCRIBE</button>
+    <button class="join-button">JOIN</button>
+    <button class="tweet-button">Tweet</button>
+
+
+   <button class="test-large"> Test stretch  </button>
+    </body>
+    </html>

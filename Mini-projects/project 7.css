@@ -1,0 +1,119 @@
+input {
+    font-family: Arial;
+}
+button {
+    font-family: Arial;
+}
+.text-box1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+
+
+}
+
+.text-box2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+
+
+
+
+}
+
+.text-box3 {
+    display: block;
+    width: 350px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+
+
+}
+
+.sign-up {
+    background-color: rgb(66, 66, 224);
+    color: white;
+    border: 0px solid ;
+    border-radius: 5px;
+    width: 357px;
+    
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.02cm;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+
+.header {
+
+    font-family: Arial;
+} 
+
+.input1 {
+    display: block;
+    margin-bottom: 5px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    border: 0px solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 300px;
+}
+
+.input2 {
+    display: block;
+    color: rgba(0, 0, 0, 0.1);
+
+    margin-bottom: 50px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    border: 0px solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 300px;
+}
+
+.request-button {
+    font-family: Arial;
+    background-color: black;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 120px;
+    margin-right: 10px;
+
+}
+
+.schedule-button {
+    font-family:Arial;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: Arial;
+    background-color:  rgba(0, 0, 0, 0.1);
+    color: black;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 120px;
+    margin-right: 10px;
+    border: 0px solid;
+
+
+}
+
+
+
+
+
+
+
+
+}

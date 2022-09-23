@@ -1,0 +1,42 @@
+.icon-bar {
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+    padding: 12px;
+    width: 450px;
+    border-radius: 6px;
+}
+
+.image-src {
+    height: 50px;
+    width: 50px;
+    border-radius: 90px;
+    vertical-align: middle;
+    margin-right: 5px;
+    object-fit: cover;
+
+}
+
+.quote {
+    width: 300px;
+    vertical-align: middle;
+    border: 0px;
+    font-size: 18px;
+
+}
+
+.tweet-button {
+    background-color: rgb(29, 29, 240);
+    padding-left:16px ;
+    padding-top: 8px ;
+    padding-right: 16px;
+    padding-bottom: 8px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    vertical-align: middle;
+    
+    border: 0px;
+    color: white;
+
+
+}
+    

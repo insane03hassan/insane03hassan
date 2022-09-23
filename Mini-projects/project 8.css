@@ -1,0 +1,65 @@
+div {
+    font-family: Arial;
+}
+
+.red-div {
+    display: inline-block;
+    background-color: red;
+    width: 200px;
+    height:200px;
+   
+    margin-right: 10px;
+    vertical-align: top;
+   
+   
+  
+}
+
+.green-div {
+    display: inline-block;
+    background-color: green;
+    width: 200px;
+    height: 200px;
+
+    border-radius: 200px;
+  
+   
+  
+}
+
+.suggestion {
+
+    border: 1px solid grey;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 20px;
+    width: 300px;
+    
+}
+
+button {
+    font-weight: bold;
+}
+
+
+.youtube-div {
+    background-color: black;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-right: ;
+    padding-bottom: 5px;
+    margin-top: 5px;
+
+}
+
+.install-text {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.youtube-text {
+    color: rgb(160, 160, 160);
+}

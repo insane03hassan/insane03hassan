@@ -1,0 +1,202 @@
+
+div {
+    margin-bottom: 50px;
+}
+
+.tahoma{
+    font-family: tahoma;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.second { 
+    font-family: verdana;
+}
+
+.verdana1 {
+    font-weight:bolder;
+    font-size: 15px;
+
+}
+
+.verdana2 {
+    font-size: 14px;
+    color: rgb(155, 155, 155);
+}
+
+.verdana3 {
+    font-weight: 500;
+    width: 300px;
+
+}
+
+.verdana4 {
+    font-family: Verdana;
+    color: white;
+    background-color: green;
+    border: 0px;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.Arial1 { 
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 2px;
+
+
+}
+
+.Arial2 {
+    font-family: Arial;
+    color: red;
+    font-weight: bold;
+    margin-top: 0%;
+}
+
+.arial12 {
+    font-family: Arial;
+    font-size: 25px;
+    font-weight:bold ;
+    text-align: center;
+
+
+}
+
+.arial34{
+    font-family: Arial;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.arial45 {
+    font-family: Arial;
+    color: rgb(45, 45, 204);
+    opacity: 0.6;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+
+
+}
+
+
+.new {
+    color: red;
+    text-align: center;
+    font-family: Arial;
+    margin-bottom: 0%;
+    
+}
+
+.macbook2 {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.hightlight {
+    font-family: Arial;
+    font-weight: bolder;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 0%;
+
+}
+
+.price1 {
+    text-align: center;
+    margin-top: 5px;
+    font-family: Arial;
+
+}
+
+.purchase1 {
+    background-color: blue;
+    border-radius: 5px;
+    width: 70px;
+    height: 30px;
+    border: 0px;
+    margin-left: 200px;
+    font-family: Arial;
+ 
+    
+
+
+    
+
+}
+
+.currency1 {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+.currency-type {
+    color: gray;
+    font-size: 12px;
+    font-family: Arial;
+    font-weight: normal;
+
+}
+
+.stats-main {
+    font-family: Arial;
+    color: green;
+}
+
+.loss {
+    font-family: Arial;
+
+}
+
+.main-loss {
+    color: red;
+}
+
+.freecode-text {
+    font-family: Arial;
+    font-weight: bold; 
+    margin-bottom: 0%;
+
+}
+
+.subtext1 {
+    color: gray;
+    font-weight: normal;
+}
+
+.subtext2 {
+    color: gray;
+    font-weight: normal;
+   
+}
+
+.web-text1 {
+    font-family: Arial;
+    margin-top: 5px;
+    font-size: 15px;
+   
+}
+
+.wev-text2 {
+    font-family: Arial;
+
+}
+
+.sub-text3 {
+    color: blue;
+    opacity: 0.6;
+
+}
+
+}
